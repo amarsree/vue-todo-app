@@ -1,7 +1,7 @@
 
-## About Laravel
+## How To run
 
-Steps To run the application after clone the application
+Steps To run the application after cloning the application
 
 - Step1: open Terminal inside root Directory 
 - Step2: run "Composer install"
