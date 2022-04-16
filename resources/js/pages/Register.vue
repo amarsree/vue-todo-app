@@ -7,14 +7,14 @@
                     {{ error }}
                 </div>
 
-                <div class="card card-default">
+                <div class="box-content h-70 w-250 p-4  hover:box-content shadow-lg">
                     <div class="card-header">Register</div>
                     <div class="card-body">
-                        <form>
+                        <form class="flex flex-col space-y-4 rounded-md">
                             <div class="form-group row">
                                 <label for="name" class="col-sm-4 col-form-label text-md-right">Name</label>
                                 <div class="col-md-6">
-                                    <input id="name" type="email" class="form-control" v-model="name" required
+                                    <input id="name" type="email" class="border-2 border-white-600" v-model="name" required
                                            autofocus autocomplete="off">
                                 </div>
                             </div>
@@ -22,7 +22,7 @@
                             <div class="form-group row">
                                 <label for="email" class="col-sm-4 col-form-label text-md-right">E-Mail Address</label>
                                 <div class="col-md-6">
-                                    <input id="email" type="email" class="form-control" v-model="email" required
+                                    <input id="email" type="email" class="border-2 border-white-600" v-model="email" required
                                            autofocus autocomplete="off">
                                 </div>
                             </div>
@@ -30,14 +30,14 @@
                             <div class="form-group row">
                                 <label for="password" class="col-md-4 col-form-label text-md-right">Password</label>
                                 <div class="col-md-6">
-                                    <input id="password" type="password" class="form-control" v-model="password"
+                                    <input id="password" type="password" class="border-2 border-white-600" v-model="password"
                                            required autocomplete="off">
                                 </div>
                             </div>
 
                             <div class="form-group row mb-0">
                                 <div class="col-md-8 offset-md-4">
-                                    <button type="submit" class="btn btn-primary" @click="handleSubmit">
+                                    <button type="submit" class="px-4 py-2 font-semibold text-sm bg-sky-500 text-white rounded-md shadow-sm opacity-100" @click="handleSubmit">
                                         Register
                                     </button>
                                 </div>

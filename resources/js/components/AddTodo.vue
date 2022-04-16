@@ -8,7 +8,7 @@
                         <label>Name</label>
                         <input type="text" class="form-control" v-model="Todo.name">
                     </div>
-                    <button type="submit" class="btn btn-primary">Add Todo</button>
+                    <button type="submit" class="px-4 py-2 font-semibold text-sm bg-sky-500 text-white rounded-md shadow-sm opacity-100">Add Todo</button>
                 </form>
             </div>
         </div>

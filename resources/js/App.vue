@@ -1,10 +1,11 @@
 <template>
     <div class="container">
         <div class="text-center" style="margin: 20px 0px 20px 0px;">
-            <h1 class="text-secondary">Todo Task</h1>
+            <h1 class="text-6xl font-bold ">Todo Task</h1>
+            
         </div>
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light content-center">
             <div class="collapse navbar-collapse">
                 <!-- for logged-in user-->
                 <div class="navbar-nav" v-if="isLoggedIn">

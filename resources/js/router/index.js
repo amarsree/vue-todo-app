@@ -8,7 +8,7 @@ import Dashboard from '../pages/Dashboard';
 
 import Todos from '../components/Todos';
 import AddTodo from '../components/AddTodo';
-import EditTodo from '../components/EditTodo';
+import EditTodo from '../components/EditTodo'; 
 
 export const routes = [
     {
